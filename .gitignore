@@ -1,0 +1,52 @@
+# VLCKit Swift Package - .gitignore
+
+# Build artifacts and temporary files
+build-artifacts/
+vlckit-build/
+*.xcframework/
+*.xcframework.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+*.xcworkspace
+
+# Xcode
+*.xcodeproj
+DerivedData/
+.DS_Store
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Backup files
+*.backup
+
+# Log files
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
