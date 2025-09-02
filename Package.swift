@@ -29,7 +29,7 @@ let package = Package(
     // Contains binaries for iOS, tvOS, macOS, and visionOS
     .binaryTarget(
       name: "VLCKit",
-      url: "https://github.com/paoloandrea/vlckit-package/releases/download/4.0.015/VLCKit.xcframework.zip",
+      url: "https://github.com/paoloandrea/vlckit-package/releases/download/4.0.15/VLCKit.xcframework.zip",
       checksum: "ab08f7520f33b15d66a13f6c69dfc21b43f9d3733c7b5557d8dbb9b1acc5efe0"
     ),
   ]
